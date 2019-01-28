@@ -1,14 +1,14 @@
 <?php
 /**
- * OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures
+ * MasakhaneHRM is a comprehensive Human Resource Management (HRM) System that captures
  * all the essential functionalities required for any enterprise.
- * Copyright (C) 2006 OrangeHRM Inc., http://www.orangehrm.com
+ * Copyright (C) 2006 MasakhaneHRM Inc., http://www.MasakhaneHRM.com
  *
- * OrangeHRM is free software; you can redistribute it and/or modify it under the terms of
+ * MasakhaneHRM is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 2 of the License, or (at your option) any later version.
  *
- * OrangeHRM is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * MasakhaneHRM is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
  * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
  *
@@ -101,11 +101,11 @@ $systemConfigurationHelper = new systemConfigurationHelper();
         <label>Confirm Admin User Password <em>*</em></label>
         <input type="password" class="OHRMAdminPasswordConfirm" id="OHRMAdminPasswordConfirm" name="OHRMAdminPasswordConfirm" value=""><br>
 
-        <p class="credentialsNotice">This will be the user credentials to login OrangeHRM as an administrator.</p>
+        <p class="credentialsNotice">This will be the user credentials to login MasakhaneHRM as an administrator.</p>
 
         <p class="requiredFields"><span class="required"> * </span>Required Fields</p>
 
-        <p class="userDirect">Users who seek access to their data, or who seek to correct, amend, or delete the given information should direct their requests to​ Data@orangehrm.com</p>
+        <p class="userDirect">Users who seek access to their data, or who seek to correct, amend, or delete the given information should direct their requests to​ Data@MasakhaneHRM.com</p>
 
         <input class="button" type="button" value="Back" onclick="back();"/>
         <input class="button" type="button" value="Next" id="systemConfigReg"/>
@@ -165,7 +165,7 @@ $systemConfigurationHelper = new systemConfigurationHelper();
                 },
                 'OHRMAdminUserName': {
                     required: "Required",
-                    adminLength: "OrangeHRM Admin User-name should be at least 5 char. long!"
+                    adminLength: "MasakhaneHRM Admin User-name should be at least 5 char. long!"
                 },
                 'OHRMAdminPassword': {
                     required: "Required"

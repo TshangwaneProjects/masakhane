@@ -1,14 +1,14 @@
 <?php
 /**
- * OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures
+ * masakhanehrm is a comprehensive Human Resource Management (HRM) System that captures
  * all the essential functionalities required for any enterprise.
- * Copyright (C) 2006 OrangeHRM Inc., http://www.orangehrm.com
+ * Copyright (C) 2006 masakhanehrm Inc., http://www.masakhanehrm.com
  *
- * OrangeHRM is free software; you can redistribute it and/or modify it under the terms of
+ * masakhanehrm is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 2 of the License, or (at your option) any later version.
  *
- * OrangeHRM is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * masakhanehrm is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
  * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
  *
@@ -80,7 +80,7 @@ function sysCheckPassed() {
 
   <h2>Step 3: System Check</h2>
 
-  <p>In order for your OrangeHRM installation to function properly,
+  <p>In order for your MasakhaneHRM installation to function properly,
   please ensure that all of the system check items listed below are green. If
   any are red, please take the necessary steps to fix them.</p>
 
@@ -260,11 +260,11 @@ function sysCheckPassed() {
             </strong></td>
           </tr>
           <tr>
-            <td class="tdComponent">Write Permissions for "symfony/apps/orangehrm/config"</td>
+            <td class="tdComponent">Write Permissions for "symfony/apps/masakhanehrm/config"</td>
 
             <td align="right" class="tdValues"><strong>
             <?php
-               if(is_writable(ROOT_PATH . '/symfony/apps/orangehrm/config')) {
+               if(is_writable(ROOT_PATH . '/symfony/apps/masakhanehrm/config')) {
                   echo "<b><font color='green'>OK</font></b>";
 				} else {
                   echo "<b><font color='red'>Not Writeable</font>";
@@ -380,7 +380,7 @@ function sysCheckPassed() {
                 if (extension_loaded('curl')) {
                     echo "<b><font color='green'>Enabled</font></b>";
                 } else {
-                    echo "<b><font color='red'>Disabled. This is required to run OrangeHRM.</font></b>";
+                    echo "<b><font color='red'>Disabled. This is required to run masakhanehrm.</font></b>";
                     $error_found = true;
                 }
             ?>
@@ -456,7 +456,7 @@ function sysCheckPassed() {
 
     function htAcessDisabled() {
         var element = document.getElementById("htaccess");
-        element.innerHTML = "Not enabled! This makes OrangeHRM vulnerable to security attacks.";
+        element.innerHTML = "Not enabled! This makes masakhanehrm vulnerable to security attacks.";
         element.className = "error";
 
         var nextButton = document.getElementById("nextButton");

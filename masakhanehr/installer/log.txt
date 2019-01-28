@@ -1,0 +1,27 @@
+Client Info
+
+User Agent : Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Remote Address : ::1
+
+Server Info
+
+Host : localhost:8081
+PHP Version : 5.6.38
+Server : Apache/2.4.34 (Unix) OpenSSL/1.0.2p PHP/5.6.38 mod_perl/2.0.8-dev Perl/v5.16.3
+Admin : you@example.com
+
+Document Root : /opt/lampp/htdocs
+ROOT_PATH : /opt/lampp/htdocs/hr/masakhane/masakhanehr
+
+OrangeHRM Installation Log
+
+Mon, 28 Jan 2019 20:06:15 +0100 DB Creation - Starting
+Mon, 28 Jan 2019 20:06:15 +0100 DB Creation - Done
+Mon, 28 Jan 2019 20:06:15 +0100 DB Creation - No Errors
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Starting
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Connected to the DB Server
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Selected the DB
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Reading DB Script
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Opened DB Script
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Read DB script
+Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - There are 286 Statements in the DB script
