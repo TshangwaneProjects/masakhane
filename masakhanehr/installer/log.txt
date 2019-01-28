@@ -25,3 +25,26 @@ Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Reading DB Script
 Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Opened DB Script
 Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - Read DB script
 Mon, 28 Jan 2019 20:06:17 +0100 Fill Data Phase 1 - There are 286 Statements in the DB script
+Mon, 28 Jan 2019 20:10:14 +0100 MySQL Procedure Error:No database selected
+Mon, 28 Jan 2019 20:10:14 +0100 Fill Data Phase 1 - Done
+Mon, 28 Jan 2019 20:10:14 +0100 Fill Data Phase 1 - No Errors
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Starting
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Connected to the DB Server
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Selected the DB
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Reading DB Script
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Opened DB Script
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - Read DB script
+Mon, 28 Jan 2019 20:10:18 +0100 Fill Data Phase 2 - There are 154 Statements in the DB script
+Mon, 28 Jan 2019 20:10:30 +0100 MySQL Event Error:No database selected
+Mon, 28 Jan 2019 20:10:30 +0100 Fill Data Phase 1 - Connected to the DB Server
+Mon, 28 Jan 2019 20:10:31 +0100 Fill Data Phase 2 - Done
+Mon, 28 Jan 2019 20:10:31 +0100 Fill Data Phase 2 - No Errors
+Mon, 28 Jan 2019 20:10:33 +0100 Create DB user - Starting
+Mon, 28 Jan 2019 20:10:33 +0100 Create DB user - Done
+Mon, 28 Jan 2019 20:10:33 +0100 Create DB user - No Errors
+Mon, 28 Jan 2019 20:10:35 +0100 Create OrangeHRM user - Starting
+Mon, 28 Jan 2019 20:10:35 +0100 Create OrangeHRM user - Done
+Mon, 28 Jan 2019 20:10:35 +0100 Create OrangeHRM user - No Errors
+Mon, 28 Jan 2019 20:10:38 +0100 Write Conf - Starting
+Mon, 28 Jan 2019 20:10:38 +0100 Write Conf - Done
+Mon, 28 Jan 2019 20:10:38 +0100 Write Conf - No Errors

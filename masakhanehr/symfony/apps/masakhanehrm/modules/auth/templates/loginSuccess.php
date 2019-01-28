@@ -40,7 +40,7 @@ $imagePath = theme_path("images/login");
     }
 
     #divUsername {
-        padding-top: 138px;
+        padding-top: 293px;
         padding-left: 50%;
     }
 
@@ -118,11 +118,11 @@ $imagePath = theme_path("images/login");
     
     #logInPanelHeading{
         position:absolute;
-        padding-top:89px;
+        padding-top:238px;
 		padding-left:49.5%;
         font-family:sans-serif;
         font-size: 15px;
-        color: #544B3C;
+        color: #fff;
         font-weight: bold;
     }
     
@@ -147,10 +147,6 @@ $imagePath = theme_path("images/login");
 </div>
 
 <div id="divLogin">
-    <div id="divLogo">
-        <img src="<?php echo "{$imagePath}/logo.png"; ?>" />
-    </div>
-
     <form id="frmLogin" method="post" action="<?php echo url_for('auth/validateCredentials'); ?>">
         <input type="hidden" name="actionID"/>
         <input type="hidden" name="hdnUserTimeZoneOffset" id="hdnUserTimeZoneOffset" value="0" />
