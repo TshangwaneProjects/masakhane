@@ -1,14 +1,14 @@
 <?php
 /**
- * OrangeHRM is a comprehensive Human Resource Management (HRM) System that captures
+ * Masakhanehrm is a comprehensive Human Resource Management (HRM) System that captures
  * all the essential functionalities required for any enterprise.
- * Copyright (C) 2006 OrangeHRM Inc., http://www.orangehrm.com
+ * Copyright (C) 2006 Masakhanehrm Inc., http://www.Masakhanehrm.com
  *
- * OrangeHRM is free software; you can redistribute it and/or modify it under the terms of
+ * Masakhanehrm is free software; you can redistribute it and/or modify it under the terms of
  * the GNU General Public License as published by the Free Software Foundation; either
  * version 2 of the License, or (at your option) any later version.
  *
- * OrangeHRM is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ * Masakhanehrm is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
  * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public License for more details.
  *
@@ -68,7 +68,7 @@ function submitDBInfo() {
 	}
 
 	if(!document.frmInstall.chkSameUser.checked && frm.dbOHRMUserName.value == '') {
-		alert('OrangeHRM DB User-name left Empty');
+		alert('Masakhanehrm DB User-name left Empty');
 		frm.dbOHRMUserName.focus();
 		return;
 	}
@@ -187,7 +187,7 @@ document.frmInstall.submit();
 </tr>
 <tr>
 	<td class="tdComponent">Database Name</td>
-	<td class="tdValues"><input type="text" name="dbName" value="<?php echo  isset($_SESSION['dbInfo']['dbName']) ? $_SESSION['dbInfo']['dbName'] : 'orangehrm_mysql'?>" tabindex="3"></td>
+	<td class="tdValues"><input type="text" name="dbName" value="<?php echo  isset($_SESSION['dbInfo']['dbName']) ? $_SESSION['dbInfo']['dbName'] : 'masakhanehrm_mysql'?>" tabindex="3"></td>
 </tr>
 <?php if ($_SESSION['cMethod'] == 'new') { // Couldn't use JavaScript since IE didn't support 'table-row' display property in CSS ?>
 <tr>
@@ -199,16 +199,16 @@ document.frmInstall.submit();
 	<td class="tdValues"><input type="password" name="dbPassword" value="<?php echo  isset($_SESSION['dbInfo']['dbPassword']) ? $_SESSION['dbInfo']['dbPassword'] : ''?>" tabindex="5" > *</td>
 </tr>
 <tr>
-	<td class="tdComponent">Use the same Database User for OrangeHRM</td>
+	<td class="tdComponent">Use the same Database User for masakhanehrm</td>
 	<td class="tdValues"><input type="checkbox" onclick="disableFields()" <?php echo isset($_POST['chkSameUser']) ? 'checked' : '' ?> name="chkSameUser" value="1" tabindex="6"></td>
 </tr>
 <?php  } ?>
 <tr>
-	<td class="tdComponent">OrangeHRM Database Username</td>
-	<td class="tdValues"><input type="text" name="dbOHRMUserName" <?php echo isset($_POST['chkSameUser']) ? 'disabled' : '' ?> value="<?php echo  isset($_SESSION['dbInfo']['dbOHRMUserName']) ? $_SESSION['dbInfo']['dbOHRMUserName'] : 'orangehrm'?>" tabindex="7"> #</td>
+	<td class="tdComponent">Masakhanehrm Database Username</td>
+	<td class="tdValues"><input type="text" name="dbOHRMUserName" <?php echo isset($_POST['chkSameUser']) ? 'disabled' : '' ?> value="<?php echo  isset($_SESSION['dbInfo']['dbOHRMUserName']) ? $_SESSION['dbInfo']['dbOHRMUserName'] : 'Masakhanehrm'?>" tabindex="7"> #</td>
 </tr>
 <tr>
-	<td class="tdComponent">OrangeHRM Database User Password</td>
+	<td class="tdComponent">Masakhanehrm Database User Password</td>
 	<td class="tdValues"><input type="password" name="dbOHRMPassword" <?php echo isset($_POST['chkSameUser']) ? 'disabled' : '' ?> value="<?php echo  isset($_SESSION['dbInfo']['dbOHRMPassword']) ? $_SESSION['dbInfo']['dbOHRMPassword'] : ''?>" tabindex="8"> #</td>
 </tr>
 <tr>
@@ -231,7 +231,7 @@ document.frmInstall.submit();
 <font size="1">* Privileged Database User should have the rights to create databases, create tables, insert data into table, alter table structure and to create database users.</font>
 </div>
 <div id="oDescription">
-<font size="1"># OrangeHRM database user should have the rights to insert data into table, update data in a table, delete data in a table.</font>
+<font size="1"># MasakhaneHRM database user should have the rights to insert data into table, update data in a table, delete data in a table.</font>
 </div>
 
 </div>

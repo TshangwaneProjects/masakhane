@@ -1555,7 +1555,7 @@ div#timesheet table.table tbody tr td.comments, div#edit-timesheet table.table t
 #sidebar #sidenav {
 	margin:19px 0 0 0;
 	padding:7px;
-	background: #3860f2 url(../images/sidebar-nav-bg.png) repeat-y top right;
+	background-color: #3860f2;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
